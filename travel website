@@ -1,0 +1,316 @@
+#travel website
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>travel website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@500&display=swap"
+       rel="stylesheet"> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar">
+          <span i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Package">Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <div class ="home">
+      <div class="content">
+        <h5> Welcome To World</h5>
+        <h1>Visit<span class="changecontent"></span></h1>
+        <p>Enter the world of adventure</p>
+        <a href="#book">Book place</a>
+      </div>  
+    </div> 
+
+    <!-- book -->
+    <section class="book" id="book">
+      <div class ="container">
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg">
+            </div>
+          </div>
+          
+          <div  class="col-md-6 py-3 py-md-0" >
+            <form action="#"> 
+              <input type="text" class="form-control" placeholder="Where To" required>
+              <input type="text" class="form-control" placeholder="How Many" required>
+              <input type="date" class="form-control" placeholder="Arrivals" required>
+              <input type="date" class="form-control" placeholder="Leaving" required>
+              <!-- <textarea class="form-control" rows="5" name ="text" placeholder="Enter Name and Details"></textarea> -->
+              <input type="submit" value="Book Now" class ="submit" required>
+            </form> 
+          </div>    
+    </section>        
+    
+
+    <!-- package start -->
+   <section class ="Package" id="Package">
+     <div class="container">
+       <div class="main-text">
+         <h1><span>P</span>ackages</h1>
+       </div>
+       
+       <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.kimkim.com/files/a/images/1ea8ee2cc220e1fb00f60899f635a5e385ee72ca/original-c8e2eb95657672b698c516d8b7ae82a9.jpg">
+            <div class="card-body">
+              <h3>United Kingdom</h3>
+              <p>Some of London's most iconic landmarks include royal parks, world-class museums and grand palaces</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>  
+                <i class="fa-solid fa-star checked"></i>  
+                <i class="fa-solid fa-star checked"></i>  
+                <i class="fa-solid fa-star checked"></i>  
+                <i class="fa-solid fa-star checked"></i>  
+              </div>
+                <h6>Price:<strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- new york -->
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="https://media.cntraveler.com/photos/6356c5853af482e5bbc99ddd/3:2/w_4506,h_3004,c_limit/Central%20Park,%20NY_GettyImages-539637685.jpg">
+              <div class="card-body">
+                <h3>New York</h3>
+                <p>New York City,Whether it’s the hustle and bustle of Times Square,there’s plenty to see and do in this iconic metropolis.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>  
+                  <i class="fa-solid fa-star checked"></i>  
+                  <i class="fa-solid fa-star checked"></i>  
+                  <i class="fa-solid fa-star checked"></i>  
+                  <i class="fa-solid fa-star "></i>  
+                </div>
+                  <h6>Price:<strong>$650</strong></h6>
+                  <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+           
+          <!-- switzerland -->
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://www.axisbank.com/images/default-source/progress-with-us_new/what-to-do-in-switzerland.jpg">
+                <div class="card-body">
+                  <h3>Switzerland</h3>
+                  <p>The diverse landscape, including the Alps, rolling hills, plains, and lakes,Snowcapped peaks and glacial lakes</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star "></i>  
+                    <i class="fa-solid fa-star "></i>  
+                  </div>
+                    <h6>Price:<strong>$600</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/15/85830.jpg">
+                <div class="card-body">
+                  <h3>Greece</h3>
+                  <p>There's a wild beauty, too, in the white-sand sweep of Greece's beaches, all the more dazzling against the glittering sapphire of the Aegean Sea,Glacial mountains,Fjords.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star "></i>  
+                  </div>
+                    <h6>Price:<strong>$400</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+              </div>
+            </div> 
+           
+             <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://www.touropia.com/gfx/b/2014/04/bergen.jpg">
+                <div class="card-body">
+                  <h3>Norway</h3>
+                  <p>Norway is a Nordic country in Northern Europe. It's known for its spectacular scenery,including Fjords,Northern lights,Glacial mountains.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star "></i>  
+                  </div>
+                    <h6>Price:<strong>$575</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+              </div>
+            </div> 
+            
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="https://www.tourradar.com/days-to-come/wp-content/uploads/2022/03/Frame-1-1024x683.jpg">
+                <div class="card-body">
+                  <h3>South Africa</h3>
+                  <p>South Africa is a beautiful country with a rich cultural heritage and diverse landscapes. But beyond its natural beauty. It's known for its spectacular scenery</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star checked"></i>  
+                    <i class="fa-solid fa-star "></i>  
+                    <i class="fa-solid fa-star "></i>  
+                  </div>
+                    <h6>Price:<strong>$390</strong></h6>
+                    <a href="#book">Book Now</a>
+                </div>
+              </div>
+            </div>   
+
+      </div>
+     </div>
+   </section>       
+   
+   <!-- services -->
+   <section class="Services" id="Services">
+      <div class ="container">
+          <div class="main-text">
+            <h1><span>S</span>ervices</h1>
+          </div>
+          <div class="row" style="margin-top:30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-hotel"></i>
+                <div class="card-body">
+                  <h3>Affordable Hotel</h3>
+                  <p>Go on a relaxing getaway with us and find that peaceful oasis in your life.A place to get away from the hustle of everyday life and grow in peace.
+                      Enjoy the tranquility of this enchanted retreat.
+                      The perfect place to recharge your batteries.</p>
+                </div>
+              </div>
+            </div>
+          
+  
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-utensils"></i>
+                <div class="card-body">
+                  <h3>Food and Drinks</h3>
+                  <p>One cannot think well, love well, sleep well, if one has not dined well.ood, in the end, in our own tradition, is something holy. It's not about nutrients and calories. It's about sharing. It's about honesty. It's about identity.Safety has to be everyone’s responsibility…</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-bullhorn"></i>
+                  <div class="card-body">
+                    <h3>Safety Guide</h3>
+                    <p>The greatest responsibility of a leader is to give the people in your span of care grounded sense of hope for the future. It's not about nutrients and calories. It's about sharing. It's about honesty. It's about identity.Safety has to</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+  
+      </div>
+   </section>
+
+  <section class="About" id="About">
+      <div class ="container">
+          <div class="main-text">
+            <h1><span>About </span>Us</h1>
+          </div>
+          <div class="row" style="margin-top:50px;">
+              <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                  <img src="https://img.freepik.com/premium-vector/travel-world-road-trip-tourism-landmarks-globe-concept-website-template-illustration-modern-flat-design_207954-6.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697760000&semt=ais" alt="around the world">
+                </div>
+              </div >
+              <div class="col-md-6 py-3 py-md-0">
+              <h2> How Travel Agency Work </h2>
+              <p>Travel can be a fun and learning experience.
+                  Technology allows people to travel to any corner of the world without worrying about language or distance barriers.
+                  Traveling and exploring new places is an incredible experience.there are no barriers now. You can use online maps and translators when travelling to a different city or country to help you. Cab service and food service is readily available too. Thus, travelling is very easy now thanks to technology.</p>
+              <button id="about-btn"> Read More...</button>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi pariatur ipsa et nobis illum odio quo facere. Voluptates dolores blanditiis sequi? Incidunt inventore possimus nihil illum magni similique consequatur!</p>
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div class="credit">
+      <p> Designed By<a href="#" > Shraddha Irale</a></p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright Shraddha Irale.All Rights Resevered</p>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
